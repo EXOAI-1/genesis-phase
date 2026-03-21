@@ -1,0 +1,28 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# IDE
+.cursor/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Release artifacts (not tracked)
+.create_release.py
+.release_notes.md
